@@ -1,0 +1,41 @@
+# 📌 Python 虛擬環境
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📌 macOS 系統生成的垃圾檔案
+.DS_Store
+
+# 📌 Google Cloud SDK 檔案
+google-cloud-sdk/
+google-cloud-cli-*.tar.gz  # 忽略下載的安裝檔案
+
+# 📌 Cloud SQL Proxy 執行檔
+cloud_sql_proxy
+cloud-sql-proxy  # 確保不同命名方式都能忽略
+
+# 📌 JSON 憑證檔案（避免上傳 API 金鑰）
+*.json
+!config/*.json  # 但允許 config/ 內的 JSON 設定檔案（如果有）
+
+# 📌 VS Code 設定（可選，避免個人設定影響專案）
+.vscode/
+
+# 📌 PyCharm 設定檔（避免上傳 IDE 設定）
+.idea/
+
+# 📌 日誌 & 暫存檔案
+*.log
+*.bak
+*.tmp
+*.swp
+
+# 📌 作業系統暫存檔案（可選）
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 📌 Jupyter Notebook 的暫存檔案（如果妳用 Jupyter）
+.ipynb_checkpoints/
