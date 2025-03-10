@@ -39,3 +39,6 @@ Desktop.ini
 
 # 📌 Jupyter Notebook 的暫存檔案（如果妳用 Jupyter）
 .ipynb_checkpoints/
+
+# 忽略環境變數文件
+.env
